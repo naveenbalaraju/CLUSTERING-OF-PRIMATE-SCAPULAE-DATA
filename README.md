@@ -1,5 +1,5 @@
 # CLUSTERING-OF-PRIMATE-SCAPULAE-DATA
-Primate. Scapulae is a Dataset that contains the physiological measurement of the scapula bone from 5 different genera of primates.
+Motivation of this project is clustering of Primate Scapulae dataset that contains the physiological measurement of the scapula bone from 5 different genera of primates.
 
 1. Gibbons (Hylobates) 
 2. Orangutans (Pongo) 
@@ -7,5 +7,5 @@ Primate. Scapulae is a Dataset that contains the physiological measurement of th
 4. Gorillas(gorilla) 
 5. Man (Homo) 
 
-
-The data set consists of 11 variables and 105 observations. The variables "AD.BD","AD.CD","EA.CD" "Dx.CD", "SH.ACR" are the 5 different indices of the scapulae bones. The variable "EAD", "beta", "gamma" are the angles related to bone. Since, gamma angle is is missing for Homo, the gamma variable is deleted for the further analysis.
+ I've have implemented Hierarchical clustering with single,complete,average linkage and K-means clustering.
+ Used Analytical methods like Silhouette plot and Kmedoids to find the number of the clusters in tha data.
